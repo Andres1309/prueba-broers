@@ -108,8 +108,8 @@ const Dashboard = () => {
                     alt={character.name}
                     className="img-thumbnail rounded-circle"
                     style={{
-                      width: "95px",
-                      height: "60px",
+                      width: "64px",
+                      height: "64px",
                       border: "1px solid #fff",
                       boxShadow:
                         "0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff",
