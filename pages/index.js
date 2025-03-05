@@ -64,8 +64,8 @@ export default function Home() {
 
             <div className="input-container mb-3">
               <input
-                placeholder="Enter email"
-                type="email"
+                placeholder=""
+                type="Correo electrónico"
                 className="form-control"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -75,7 +75,7 @@ export default function Home() {
 
             <div className="input-container mb-3">
               <input
-                placeholder="Enter password"
+                placeholder="Contraseña"
                 type="password"
                 className="form-control"
                 value={password}
