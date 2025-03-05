@@ -43,9 +43,7 @@ const Dashboard = () => {
   };
 
   const handleLogout = () => {
-    // Eliminar el indicador de autenticación del localStorage
     localStorage.removeItem("isAuthenticated");
-    // Redirigir al usuario a la página de inicio de sesión
     router.push("/");
   };
 
@@ -65,7 +63,6 @@ const Dashboard = () => {
 
   return (
     <div className="container-fluid d-flex flex-column justify-content-center p-4 px-5 bg-black text-white">
-      {/* Botón de cerrar sesión */}
       <div className="d-flex justify-content-end mb-4">
         <button
           onClick={handleLogout}
